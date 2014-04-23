@@ -1,0 +1,21 @@
+{
+    "name": "task/box",
+    "description": "boxproject.org plugin for Task",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Fisher",
+            "email": "mike@mbfisher.com"
+        }
+    ],
+    "require": {
+        "kherge/box": "~2.0",
+        "task/plugin": "~1.1",
+        "task/console": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Task\\Plugin\\": "src/"
+        }
+    }
+}
