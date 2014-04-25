@@ -25,6 +25,7 @@ Add to `composer.json`:
 "require-dev": {
     "task/box": "~0.1"
 }
+...
 ```
 
 BOX_PATH
