@@ -1,0 +1,14 @@
+<phpunit bootstrap="vendor/autoload.php" colors="true" backupGlobals="false">
+    <testsuite name="task/box">
+        <directory>tests/src</directory>
+    </testsuite>
+    <logging>
+        <log type="coverage-html" target="tests/reports" charset="UTF-8" />
+        <log type="coverage-text" target="php://stdout" />
+    </logging>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
