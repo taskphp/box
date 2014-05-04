@@ -13,14 +13,15 @@
         "task/plugin": "~1.1",
         "task/console": "~0.1"
     },
+    "require-dev": {
+        "task/task": "~0.1",
+        "task/phpunit": "~0.1",
+        "ext-runkit": "*",
+        "satooshi/php-coveralls": "~0.6"
+    },
     "autoload": {
         "psr-4": {
             "Task\\Plugin\\": "src/"
         }
-    },
-    "require-dev": {
-        "task/task": "~0.1",
-        "task/phpunit": "~0.1",
-        "ext-runkit": "*"
     }
 }
