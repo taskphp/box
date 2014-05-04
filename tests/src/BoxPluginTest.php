@@ -2,11 +2,15 @@
 
 namespace Task\Plugin;
 
-/**
- * @runTestsInSeparateProcesses
- */
 class BoxPluginTest extends \PHPUnit_Framework_TestCase
 {
+    public function setUp()
+    {
+        if (defined('BOX_PATH')) {
+            runkit_constant_remove('BOX_PATH');
+        }
+    }
+
     public function testApplication()
     {
         $plugin = new BoxPlugin;

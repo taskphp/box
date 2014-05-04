@@ -20,6 +20,7 @@
     },
     "require-dev": {
         "task/task": "~0.1",
-        "task/phpunit": "~0.1"
+        "task/phpunit": "~0.1",
+        "ext-runkit": "*"
     }
 }
