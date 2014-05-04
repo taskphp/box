@@ -1,6 +1,9 @@
 task/box
 ========
 
+[![Build Status](https://travis-ci.org/taskphp/box.svg?branch=master)](https://travis-ci.org/taskphp/box)
+[![Coverage Status](https://coveralls.io/repos/taskphp/box/badge.png)](https://coveralls.io/r/taskphp/box)
+
 Example
 =======
 
