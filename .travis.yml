@@ -5,10 +5,10 @@ php:
 
 install:
   - composer self-update
+  - pecl install https://github.com/php/pecl-php-runkit/archive/master.zip
   - composer install
 
 before_script:
-  - pecl install https://github.com/php/pecl-php-runkit/archive/master.zip
   - composer require task/cli ~0.1
 
 script: vendor/bin/task test
