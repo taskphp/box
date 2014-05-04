@@ -5,7 +5,7 @@ php:
 
 install:
   - composer self-update
-  - pear install https://github.com/php/pecl-php-runkit/archive/master.zip
+  - pear install https://github.com/zenovich/runkit/archive/1.0.2.tar.gz
   - composer install
 
 before_script:
